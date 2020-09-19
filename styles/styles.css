@@ -1,0 +1,61 @@
+body {
+    background-color: black !important;
+    font-family: 'Nunito', sans-serif !important;
+    color: white !important;
+}
+
+.calistoga {
+    font-family: 'Calistoga', cursive !important;
+}
+
+.baskerville {
+    font-family: 'Baskervville', serif !important;
+}
+
+.black-text {
+    color: black !important;
+}
+
+.center-spaced {
+    margin: auto;
+    width: 80%;
+    border: 3px solid white;
+    padding: 65px;
+}
+
+.text-48 {
+    font-size: 48px;
+}
+
+.underline {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: white;
+    text-decoration-thickness: 1px;
+}
+
+.custom-button {
+    background-color: black !important;
+    border-color: white !important;
+    border-width: 3px !important;
+    border-radius: 0px !important;
+}
+
+.third-width {
+    width: 33% !important;
+    margin-right: 5px !important;
+}
+
+.half-width {
+    width: 65% !important;
+    margin-top: 10px;
+}
+
+.vote-button {
+    width: 65% !important;
+    margin-top: 10px;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    margin:0 auto;
+    display:block !important;    
+}
