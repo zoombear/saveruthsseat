@@ -4,6 +4,10 @@ body {
     color: white !important;
 }
 
+.container {
+    padding-right: 0px !important;
+}
+
 .nunito {
     font-family: 'Nunito', sans-serif !important; 
 }
@@ -58,11 +62,21 @@ body {
     /* margin-right: 2px !important; */
 }
 
+.white-box {
+    /* margin-right:20px;
+    margin-left: -45px !important; */
+}
+
 @media only screen and (max-width: 992px) {
     .third-width {
         width: 100% !important;
+        margin-bottom: 5px !important;
         /* margin-right: 2px !important; */
     }   
+    .white-box {
+        /* margin-right:-100px !important;
+        margin-left: -100px !important */
+    }
 }
 
 .half-width {
@@ -85,3 +99,20 @@ body {
 .space-below-20 {
     margin-bottom: 20px;
 }
+
+hr {
+    height: 5px !important;
+    border-width:0;
+    color:white;
+    background-color:white;
+    margin-bottom: 20px;
+}
+
+.fa {
+    /* padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center; */
+    text-decoration: none;
+    color: white;
+  }
