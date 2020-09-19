@@ -102,17 +102,13 @@ body {
 
 hr {
     height: 5px !important;
-    border-width:0;
-    color:white;
-    background-color:white;
-    margin-bottom: 20px;
+    border-width:0 !important;
+    color:white !important;
+    background-color:white !important;
+    margin-bottom: 20px !important;
 }
 
 .fa {
-    /* padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center; */
     text-decoration: none;
-    color: white;
+    color: white !important;
   }
