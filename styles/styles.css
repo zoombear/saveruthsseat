@@ -4,6 +4,10 @@ body {
     color: white !important;
 }
 
+.nunito {
+    font-family: 'Nunito', sans-serif !important; 
+}
+
 .calistoga {
     font-family: 'Calistoga', cursive !important;
 }
@@ -27,6 +31,14 @@ body {
     font-size: 48px;
 }
 
+.text-46 {
+    font-size: 46px;
+}
+
+.text-28 {
+    font-size: 24px;
+}
+
 .underline {
     text-decoration-line: underline;
     text-decoration-style: solid;
@@ -42,8 +54,15 @@ body {
 }
 
 .third-width {
-    width: 33% !important;
-    margin-right: 5px !important;
+    width: 30% !important;
+    /* margin-right: 2px !important; */
+}
+
+@media only screen and (max-width: 992px) {
+    .third-width {
+        width: 100% !important;
+        /* margin-right: 2px !important; */
+    }   
 }
 
 .half-width {
@@ -58,4 +77,11 @@ body {
     font-weight: bold !important;
     margin:0 auto;
     display:block !important;    
+}
+.space-below-50 {
+    margin-bottom: 50px;
+}
+
+.space-below-20 {
+    margin-bottom: 20px;
 }
