@@ -85,3 +85,20 @@ body {
 .space-below-20 {
     margin-bottom: 20px;
 }
+
+hr {
+    height: 5px !important;
+    border-width:0;
+    color:white;
+    background-color:white;
+    margin-bottom: 20px;
+}
+
+.fa {
+    /* padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center; */
+    text-decoration: none;
+    color: white;
+  }
