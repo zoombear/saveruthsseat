@@ -4,16 +4,8 @@ body {
     color: white !important;
 }
 
-.nunito {
-    font-family: 'Nunito', sans-serif !important; 
-}
-
 .calistoga {
     font-family: 'Calistoga', serif !important;
-}
-
-.baskerville {
-    font-family: 'Baskervville', serif !important;
 }
 
 .montserrat {
@@ -68,7 +60,7 @@ blockquote {
     width: 32% !important;
 }
 
-@media only screen and (max-width: 320px) {  
+@media only screen and (max-width: 320px) {
     .text-48 {
         font-size: 32px;
     }
@@ -82,7 +74,7 @@ blockquote {
     }
 }
 
-@media only screen and (max-width: 992px) {  
+@media only screen and (max-width: 992px) {
     .center-spaced {
         width: 90%;
         padding: 35px;
@@ -92,7 +84,7 @@ blockquote {
     }
 }
 
-@media only screen and (min-width: 992px) {  
+@media only screen and (min-width: 992px) {
     .sign-button {
         margin-left: 20px;
     }
@@ -132,14 +124,14 @@ blockquote {
     font-size: 24px !important;
     font-weight: bold !important;
     margin:0 auto;
-    display:block !important;    
+    display:block !important;
 }
 
 .sign-button {
     margin-top: 10px;
     font-size: 24px !important;
     font-weight: bold !important;
-    display:block !important;  
+    display:block !important;
 }
 
 /* a.btn:hover {
