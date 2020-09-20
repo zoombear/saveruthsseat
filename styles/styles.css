@@ -57,7 +57,7 @@ header .list-inline .list-inline-item {
 header .btn {
     display: block;
 }
-.logo {
+.logo img {
     margin-top: 24px;
 }
 .text-48 {
@@ -71,23 +71,25 @@ header .btn {
     font-size: 24px;
 }
 
-
 /*Save Ruth's Seat*/
 blockquote {
     padding: 65px;
     background-color: white;
     color: black;
     font-family: 'Calistoga', serif;
-    font-size: 32px;
+    font-size: 28px;
 }
 blockquote p {
     color: #000;
     margin-top: 24px;
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
 }
-
 /*footer*/
+footer .border-top {
+    padding-top: 24px;
+    border-width: 9px !important; 
+}
 .social a {
     color: #fff;
 }
@@ -96,6 +98,9 @@ blockquote p {
     .sign .btn, .give .btn, .vote .btn {
         margin-top: 64px;
     }
+    .social .list-inline {
+        float: right;
+    }
 }
 @media (max-width: 767px) {
     header .list-inline .list-inline-item {
@@ -103,4 +108,13 @@ blockquote p {
         display: block !important;
         margin-bottom: 16px;
     }
+    .rbg {
+        width: 64%;
+        text-align: center;
+    }
+    .logo {
+        width: 50%;
+        text-align: center;
+    }
+
 }
