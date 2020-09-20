@@ -20,7 +20,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="styles/styles.css">
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -29,45 +30,46 @@
 <body>
 	<div class="container">
         <div class="row space-below-50">
-            <img class="rounded mx-auto d-block" style="width:10%; margin-top: 10px;" src="./assets/logo@2x.png" />
+            <img class="rounded mx-auto d-block header-image" src="./assets/logo@2x.png" />
         </div>
-		<div class="row space-below-50">
-			<!-- Header with image, bio, and buttons -->
-			<div class="col-lg-4 col-sm-10 mx-auto d-block"><img src="./assets/ruthFrame.jpeg" class="img-fluid" alt="Responsive image"> </div>
-			<div class="col-lg-8 col-sm-12">
-				<div class="row">
-                    <div class="col-12 col-sm-12 calistoga text-28">JUSTICE</div>
-					<div class="col-12 col-sm-12 calistoga text-46">Ruth Bader Ginsberg</div>
-					<div class="col-12 col-sm-12 calistoga text-28">1933-2020</div>
-					<div class="col-12 col-sm-12 nunito text-28 space-below-20">Let the American people decide. Justice Ruth Bader Ginsburg's Supreme Court seat should remain open until after inauguration day.</div>
-					<div class="col-sm-12 col-lg-9" role="group" aria-label="Basic example">
-                        <a class="btn btn-primary custom-button third-width" href="https://www.change.org/p/lisa-murkowski-let-the-american-people-decide-keep-justice-seat-vacant-until-we-have-a-new-president" target="_blank" role="button">Sign</a>
-                        <a class="btn btn-primary custom-button third-width" href="https://secure.actblue.com/donate/getmitch?refcode=saveruthsseat" target="_blank" role="button">Give</a>
-                        <a class="btn btn-primary custom-button third-width" href="https://iwillvote.com/" target="_blank" role="button">Vote</a> </div>
-				</div>
-			</div>
-        </div>
-        <div class="row space-below-50">
-            <!-- White box on left and #saveruthsseat petition on right -->
-            <div style="background-color: white;" class="col-lg-7 col-12 white-box">
-                <div class="center-spaced">
-                    <div class="black-text calistoga">My most fervent wish is that I will not be replaced until a new president is installed."</div>
-                    <div class="black-text baskerville">- Ruth Bader Ginsburg</div>
-                </div>
-            </div>
-                <!-- <div class="col-sm-1"></div> -->
-                <div class="col-lg-4">
+        <header>
+            <div class="row space-below-50">
+                <!-- Header with image, bio, and buttons -->
+                <div class="col-lg-4 col-sm-10 mx-auto d-block"><img src="./assets/ruthFrame.jpeg" class="img-fluid" alt="Responsive image"> </div>
+                <div class="col-lg-8 col-sm-12">
+                    <h1>
+                        <span class="text-28">JUSTICE</span>
+                        <span class="text-46">Ruth Bader Ginsberg</span>
+                        <span class="text-28">1933-2020</span>
+                    </h1>
+                    <p class="text-28">Let the American people decide. Justice Ruth Bader Ginsburg's Supreme Court seat should remain open until after inauguration day.</p>
                     <div class="row">
-                        <div class="row">
-                            <div class="col-1 col-sm-1 calistoga text-48"># </div>
-                            <div class="col-9 col-sm-9 calistoga text-48 underline">SaveRuthsSeat</div>
-                        </div>
-                        <div class="col-12 col-sm-12" style="margin-left: 20px;">Tell your Senators, Democrat or Republican, to honor Justice Ginsburg's last wish and Mitch MocConnell's own rule.</div>
-                        <div class="col-12 col-sm-12" style="margin-left: 20px;">
-                            <a class="btn btn-primary custom-button half-width" href="https://www.change.org/p/lisa-murkowski-let-the-american-people-decide-keep-justice-seat-vacant-until-we-have-a-new-president" target="_blank" role="button">Sign the petition</a>
+                        <div class="col-sm-12 col-lg-12" role="group">
+                            <a class="btn btn-primary custom-button third-width" href="https://www.change.org/p/lisa-murkowski-let-the-american-people-decide-keep-justice-seat-vacant-until-we-have-a-new-president" target="_blank" role="button">Sign</a>
+                            <a class="btn btn-primary custom-button third-width" href="https://secure.actblue.com/donate/getmitch?refcode=saveruthsseat" target="_blank" role="button">Give</a>
+                            <a class="btn btn-primary custom-button third-width" href="https://iwillvote.com/" target="_blank" role="button">Vote</a>
                         </div>
                     </div>
                 </div>
+            </div>
+            </header>
+        <div class="row space-below-50">
+            <!-- White box on left and #saveruthsseat petition on right -->
+            <div class="col-lg-7 col-12 space-below-20 quote">
+                <blockquote>
+                    &ldquo;My most fervent wish is that I will not be replaced until a new president is installed.&rdquo;
+                    <p>&mdash; Ruth Bader Ginsburg</p>
+
+                </blockquote>
+            </div>
+            <div class="col-lg-5">
+                <h1>#SaveRuthsSeat</h1>
+                <p>Tell your Senators, Democrat or Republican, to honor Justice Ginsburg's last wish and Mitch MocConnell's own rule.</p>
+                <!-- <div class="col-12 col-sm-12" style="margin-left: 20px;">
+                    <a class="btn btn-primary custom-button half-width" href="https://www.change.org/p/lisa-murkowski-let-the-american-people-decide-keep-justice-seat-vacant-until-we-have-a-new-president" target="_blank" role="button">Sign the petition</a>
+                </div> -->
+                <div class="col-lg-12 col-md-12 col-sm-12"> <a class="btn btn-primary custom-button sign-button" href="https://www.change.org/p/lisa-murkowski-let-the-american-people-decide-keep-justice-seat-vacant-until-we-have-a-new-president" target="_blank" role="button">Sign the petition</a> </div>
+            </div>
         </div>
         <!-- We dont have an actblue to embed so for now we may need to just code a button -->
 		<!-- <div class="row space-below-50">
@@ -80,24 +82,22 @@
             <div class="col-6 col-md-6 col-sm-12"><img src="./assets/actblueembed.png" class="img-fluid" alt="Responsive image"> </div>
         </div> -->
 			<!-- Register to vote -->
-        <div class="col-lg-6 col-sm-12">
-            <div class="row">
-                <div class="col-12 col-sm-12 calistoga text-48 underline">Give</div>
-            </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <h1>Give</h1>
         </div>
         <div class="row space-below-20">
-            <div class="col-lg-5 col-md-6 col-sm-6" style="margin-left: 20px;">Help put pressure on the most vulnerable senators to do the right thing.</div>
-            <div class="col-lg-5 col-md-6 col-sm-6"> <a class="btn btn-primary custom-button vote-button" href="https://secure.actblue.com/donate/getmitch?refcode=saveruthsseat" target="_blank" role="button">Give</a> </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 space-below-20" style="margin-left: 20px;">Help put pressure on the most vulnerable senators to do the right thing.</div>
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-6"> <a class="btn btn-primary custom-button vote-button" href="https://secure.actblue.com/donate/getmitch?refcode=saveruthsseat" target="_blank" role="button">Give</a> </div>
         </div>
 
-        <div class="col-lg-6 col-sm-12">
-            <div class="row">
-                <div class="col-12 col-sm-12 calistoga text-48 underline">Register to vote</div>
-            </div>
+
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <h1>Register to Vote</h1>
         </div>
         <div class="row space-below-50">
-            <div class="col-lg-5 col-md-6 col-sm-6" style="margin-left: 20px;">Voter rolls can change. Register to vote or double-check your registration on iwillvote.com</div>
-            <div class="col-lg-5 col-md-6 col-sm-6"> <a class="btn btn-primary custom-button vote-button" href="https://iwillvote.com/" target="_blank" role="button">iwillvote.com</a> </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 space-below-20" style="margin-left: 20px;">Voter rolls can change. Register to vote or double-check your registration on iwillvote.com</div>
+            <div class="col-lg-5 col-md-5 col-sm-6"> <a class="btn btn-primary custom-button vote-button" href="https://iwillvote.com/" target="_blank" role="button">iwillvote.com</a> </div>
         </div>
         
 		<!-- <div class="row">
